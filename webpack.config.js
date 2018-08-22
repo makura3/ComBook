@@ -25,7 +25,13 @@ module.exports = {
         test: /\.scss$/,
         use: [
           'vue-style-loader',
-          'css-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              url: false,
+              minimize: true
+            }
+          },
           'sass-loader',
           {
             loader: 'sass-resources-loader',
@@ -35,7 +41,8 @@ module.exports = {
                 path.resolve(__dirname, './src/assets/scss/_mixin.scss')
               ]
             }
-          }
+          },
+          'postcss-loader'
         ]
       }
     ]
