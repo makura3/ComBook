@@ -2,6 +2,7 @@
   <div>
     <h2>Componentページ</h2>
     <MainMenu />
+    <router-view></router-view>
   </div>
 </template>
 

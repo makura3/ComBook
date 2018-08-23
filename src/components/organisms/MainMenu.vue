@@ -2,7 +2,7 @@
   <div class="menu">
     <ul>
       <li>
-        <a href="#">リンク１</a>
+        <router-link to="/component/card">カード</router-link>
       </li>
       <li>
         <a href="#">リンク１</a>
