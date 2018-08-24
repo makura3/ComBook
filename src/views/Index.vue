@@ -1,11 +1,12 @@
 <template>
   <div class="welcome-page">
-    <h1>ComBook</h1>
-    <p>コンポーネント提供ツール（仮）</p>
+    <section>
+      <p>コンポーネント提供ツール（仮）</p>
+    </section>
 
-    <div>
-      <router-link to="/component">早速使う</router-link>
-    </div>
+    <section>
+      <router-link to="/guid">使い方ガイド</router-link>
+    </section>
   </div>
 </template>
 

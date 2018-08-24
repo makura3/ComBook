@@ -1,8 +1,7 @@
 <template>
   <div>
-    <MainMenu />
     <div class="p-content">
-      <router-view></router-view>
+      ガイドコンポーネント
     </div>
   </div>
 </template>
@@ -20,6 +19,9 @@ export default {
 
 
 <style lang="scss" scoped>
+.l-content {
+  display: flex;
+}
 .p-content {
   flex-grow: 2;
 }

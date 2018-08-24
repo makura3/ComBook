@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 // pageComponents
 import Home from './views/Index.vue'
+import Guid from './views/Guid.vue'
 import Component from './views/Component.vue'
 
 //partComponents
@@ -21,8 +22,12 @@ export default new Router({
       component: Home
     },
     {
+      path: '/guid',
+      name: 'guid',
+      component: Guid
+    },
+    {
       path: '/component',
-      name: 'component',
       component: Component,
       children: [
         {

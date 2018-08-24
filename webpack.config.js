@@ -3,9 +3,7 @@ const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
   mode: 'development', //webpack4〜
-  entry: [
-    './src/main.js'
-  ],
+  entry: ['./src/main.js'],
   output: {
     filename: 'app.js',
     path: __dirname + '/public'
@@ -47,7 +45,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new VueLoaderPlugin()
-  ]
+  plugins: [new VueLoaderPlugin()]
 }
