@@ -36,9 +36,9 @@
     position: relative;
 
     &::after {
-      border-bottom: 4px solid $gray;
+      border-bottom: 4px solid $main;
       bottom: -8px;
-      content: '';
+      content: "";
       height: 4px;
       left: 0;
       position: absolute;

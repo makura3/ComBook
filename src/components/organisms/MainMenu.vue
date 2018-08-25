@@ -26,6 +26,7 @@
 
   .c-nav__item {
     list-style-type: none;
+    padding: 0 10px 10px 0;
   }
 }
 </style>

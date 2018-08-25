@@ -15,9 +15,14 @@
         </div>
       </div>
       <div class="c-source__list">
-        <div>
-          <span>HTML</span>
-          <div>HTMLがズラ〜〜〜</div>
+        <div class="c-source__html">
+          HTML
+        </div>
+        <div class="c-source__html">
+          CSS
+        </div>
+        <div class="c-source__html">
+          JavaScript
         </div>
       </div>
     </div>
@@ -31,7 +36,7 @@
 <style lang="scss" scoped>
 .c-source {
   background-color: $lightGray;
-  padding: 50px; 
+  padding: 50px;
 }
 .c-card {
   background-color: $white;
@@ -51,6 +56,18 @@
     &.c-card__text--l {
       font-size: 1.2em;
     }
+  }
+}
+
+.c-source__list {
+  display: flex;
+  margin-top: 50px;
+
+  .c-source__html {
+    background-color: #ccc;
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
   }
 }
 </style>
