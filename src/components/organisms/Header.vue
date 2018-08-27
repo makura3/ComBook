@@ -2,7 +2,7 @@
   <header class="header">
     <div>
       <h1>
-        <router-link to="/" class="logo">ロゴ</router-link>
+        <router-link to="/" class="logo"><img src="~@images/logo.png" class="logo"></router-link>
       </h1>
     </div>
     <ul class="c-link">

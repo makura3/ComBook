@@ -42,8 +42,21 @@ module.exports = {
           },
           'postcss-loader'
         ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000,
+          name: 'img/[name].[hash:7].[ext]'
+        }
       }
     ]
+  },
+  resolve: {
+    alias: {
+      '@images': path.resolve(__dirname, './src/assets/images')
+    }
   },
   plugins: [new VueLoaderPlugin()]
 }
