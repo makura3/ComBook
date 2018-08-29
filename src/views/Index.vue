@@ -2,6 +2,7 @@
   <div class="welcome-page">
     <section>
       <p>コンポーネント提供ツール（仮）</p>
+      <p>中村が困った時のためのデザインコンポーネントツール。</p>
     </section>
 
     <section>
