@@ -1,8 +1,8 @@
 
 <template>
   <div>
-    <slot name="title"></slot>
-    <slot name="description"></slot>
+    <h3>{{ title }}</h3>
+    <p>{{ description }}</p>
     <div class="c-source__list">
       <div class="c-source__item c-source__demo" @click="showSource">
         DEMO
@@ -25,6 +25,7 @@
 
 <script>
 export default {
+  props: ['title','description'],
   methods: {
     showSource: function() {
       console.log('click!')

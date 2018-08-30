@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Template >
-      <h3 slot="title">Cardコンポーネント - デフォルト</h3>
-      <p slot="description">カード型のデザインを埋め込む場合に使用します。</p>
+    <Template :title='title' :description='description' >
       <div slot="source-demo" class="c-card c-card--shadow">
         <div class="c-card__header">
           <p class="c-card__text c-card__text--l">タイトル</p>
@@ -23,6 +21,12 @@ import Template from './../../src/components/organisms/PackageTemplate.vue'
 export default {
   components: {
     Template
+  },
+  data: function() {
+    return {
+      title: 'Cardコンポーネント - デフォルト',
+      description: 'カード型のデザインを埋め込む場合に使用します。'
+    }
   },
   methods: {
     showSource: function() {
