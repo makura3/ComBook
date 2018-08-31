@@ -12,6 +12,9 @@
           </p>
         </div>
       </div>
+      <div slot="source-html">
+        HTMLがほにゃにゃ〜
+      </div>
     </Template>
   </div>
 </template>

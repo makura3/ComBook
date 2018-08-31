@@ -26,13 +26,11 @@
 
 <script>
 export default {
-  props: ['title','description'],
-  methods: {
-    showSource: function() {
-      console.log('click!')
-    }
-  }
-
+  // data: function() {
+  //   return: {
+  //     tab
+  //   }
+  // }
 }
 </script> 
 
